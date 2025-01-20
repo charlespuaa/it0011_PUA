@@ -5,7 +5,7 @@ bDay = input("Enter your birthday [MM/DD/YYYY]: ")
 Gender = input("Enter your gender [M/F]: ") 
 Address = input("Enter your address: ") 
 Course = input("Enter your course: ")
-yearLevel = int(input ("Enter your year level"))
+yearLevel = int(input ("Enter your year level: "))
 
 print("Name: ", fName, "" , mName, "", lName )
 print("Birthday: ", bDay)
