@@ -29,4 +29,16 @@ print(f"[{', '.join(setII3)}]")
 setIII = A.intersection(B).union(B.intersection(C))
 print(f"[{', '.join(setIII)}]")
 
+# iv. [d, f]
+setIV = A.intersection(C) - {"c"}
+print(f"[{', '.join(setIV)}]")
+
+# v. [c]
+setV = A.intersection(B, C) 
+print(f"[{', '.join(setV)}]")
+
+# vi. [l, m, o]
+setVI = B.difference(A)
+setVI2 = setVI.difference(C)
+print(f"[{', '.join(setVI2)}]")
 
