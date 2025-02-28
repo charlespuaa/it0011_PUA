@@ -13,3 +13,20 @@ print(len(totalAB))
 diffB = B.difference(A, C)
 print(len(diffB))
 
+#c. Show the following using set operations
+
+# i. [h, i, j, k]
+setI = C.intersection({"h", "i", "j", "k"})
+print(f"[{', '.join(setI)}]")
+
+# ii. [c, d, f]
+setII1 = A.intersection(B, C)
+setII2 = A.intersection(C)
+setII3 = setII1.union(setII2)
+print(f"[{', '.join(setII3)}]")
+
+# iii. [b, c, h]
+setIII = A.intersection(B).union(B.intersection(C))
+print(f"[{', '.join(setIII)}]")
+
+
