@@ -75,7 +75,7 @@ def display_record():
     for record in records:
         if record[0] == student_id:
             print("\nStudent Record:")
-            print("ID\t\tName\t\t\tClass Standing\t\tExam"
+            print("ID\t\tName\t\t\tClass Standing\t\tExam")
             print("-" * 80)
             print(f"{record[0]}\t\t{record[1][0]} {record[1][1]}\t\t{record[2]}\t\t\t{record[3]}")
             return
