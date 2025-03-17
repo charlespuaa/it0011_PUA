@@ -1,7 +1,7 @@
 def word_counter():
     userInput = input("Enter a string statement:\n")
     
-    ignore_words = ['a', 'an', 'the', 'and', 'but', 'or', 'nor', 'for', 'so', 'yet']
+    ignore_words = ['a', 'an', 'the', 'and', 'but', 'or', 'of', 'nor', 'for', 'so', 'yet']
     
     # remove punctuation (commas and periods) and split text into words
     words = userInput.replace(',', '').replace('.', '').split()
